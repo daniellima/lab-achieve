@@ -7,12 +7,16 @@ Documentation (including ADRs and requirements) can be found on context folder.
 
 ## Installing
 
-The frontend uses **React**, **TypeScript**, and **Vite**. It builds to static
-assets for deployment on **Cloudflare Pages**. See
-[ADR 0002](context/adr/0002-frontend-stack.md) for the frontend decision and
-[ADR 0001](context/adr/0001-cloud-hosting.md) for hosting.
+The frontend uses **React**, **TypeScript**, and **Vite**.
 
-Requirements: Node.js 20.19+ or 22.12+ and npm.
+With nvm installed, run this from the project directory to install and activate it:
+
+```sh
+nvm install
+nvm use
+```
+
+Then install the project dependencies:
 
 ```sh
 npm install
